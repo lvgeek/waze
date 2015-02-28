@@ -1,3 +1,14 @@
+Fork from sashakh/wase
+This is my attempt to make Waze run on Raspbian for use in Carpc
+Hardware based on original design found at http://www.engineering-diy.blogspot.ro/
+I want Waze instead of Navit
+
+After installing build dependencies listed below, Waze compiled and ran on Pi.
+Problems:
+1 Cannot find GPSd on Pi
+2 GTK display is distorted on Pi screen (lloks fine on Ubuntu 14 with ssh -X)
+
+
 This is initial backport of Waze (http://www.waze.com) to Linux.
 
 To install:
