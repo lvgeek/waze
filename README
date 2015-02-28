@@ -7,7 +7,7 @@ I want Waze instead of Navit
 
 After installing build dependencies below, Waze compiled and ran on Pi.
 Problems:
-1.  Cannot find GPSd on Pi
+1.  Cannot find GPSd on Pi(fixed with GPS.Source: /dev/ttyACM0) GPSD not used
 2.  GTK display is distorted on Pi screen (looks fine on Ubuntu ssh -X)
 
 
